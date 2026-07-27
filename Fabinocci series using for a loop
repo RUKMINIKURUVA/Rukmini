@@ -1,0 +1,25 @@
+n_terms = int(input("How many terms
+
+# Initialize the first two terms a, b = 0, 1
+
+# Check if the number of terms is v
+
+if n_terms <= 0:
+
+print("Please enter a positive
+
+elif n_terms == 1:
+
+print("Fibonacci sequence up to print(a)
+
+else:
+
+print("Fibonacci sequence:")
+
+# Use a for loop to generate th
+
+for in range(n_terms):
+
+print(a, end="")
+
+# Update values: 'a' become a, b = b, a + b
